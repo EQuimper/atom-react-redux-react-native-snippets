@@ -2,7 +2,7 @@
   "name": "react-redux-snippets",
   "main": "./lib/react-redux-snippets",
   "author": "EQuimper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Snippets for React and Redux for help developer to be faster.",
   "keywords": [
     "react",
@@ -19,6 +19,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
