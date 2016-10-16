@@ -1,4 +1,4 @@
-# react-redux-snippets package
+# react-redux-react-native-snippets-snippets package
 
 Some snippets for React/React-Native and Redux for help you to be a faster developer.
 

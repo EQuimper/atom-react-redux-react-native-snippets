@@ -14,7 +14,7 @@
   "activationCommands": {
     "atom-workspace": "react-redux-react-native-snippets:toggle"
   },
-  "repository": "https://github.com/EQuimper/atom-react-redux-snippets",
+  "repository": "https://github.com/EQuimper/atom-react-redux-react-native-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
