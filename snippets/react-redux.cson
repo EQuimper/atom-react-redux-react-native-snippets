@@ -88,3 +88,22 @@
     'body': """
     export const ${1} = '${1}';
     """
+  'Import React-Native':
+    'prefix': 'imrn'
+    'body': """
+    import { View, Text } from 'react-native';
+    """
+  'React-Native scene':
+    'prefix': 'rnsc'
+    'body': """
+    <Scene
+      key="${1}"
+      title="${2}"
+      component={${3}}
+    />
+    """
+  'React-Router route':
+    'prefix': 'rrr'
+    'body': """
+    <Route path="${1}" component={${2}} />
+    """

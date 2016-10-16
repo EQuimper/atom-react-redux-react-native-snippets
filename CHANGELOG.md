@@ -7,3 +7,7 @@
 ## 0.2.1 - ADDED
 * componentWillUnmount
 * INITIAL_STATE
+
+### 0.2.3 - ADDED
+* Help for React-Native-Router-Flux
+* Help for React-Router
