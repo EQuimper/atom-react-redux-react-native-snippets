@@ -16,6 +16,12 @@ More will coming soon.
 import React from 'react';
 ```
 
+### `imrc` Import Component React
+
+```js
+import React, { Component } from 'react';
+```
+
 ### `sl` Stateless Component
 
 ```js
@@ -139,7 +145,16 @@ export const ${1} = '${1}';
 ### `imrn` Import React-Native
 
 ```js
-import { View, Text } from 'react-native';
+import { ${1} } from 'react-native';
+```
+
+### `rnvt` React-Native Text and View
+
+```js
+import {
+  View,
+  Text
+} from 'react-native';
 ```
 
 ### `rnsc` React-Native scene

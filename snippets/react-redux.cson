@@ -2,6 +2,9 @@
   'Import React':
     'prefix': 'imr'
     'body': "import React from 'react';"
+  'Import Component React':
+    'prefix': 'imrc'
+    'body': "import React, { Component } from 'react';"
   'Stateless Component':
     'prefix': 'sl'
     'body': """
@@ -90,8 +93,14 @@
     """
   'Import React-Native':
     'prefix': 'imrn'
+    'body': "import { ${1} } from 'react-native';"
+  'React-Native Text and View':
+    'prefix': 'rnvt'
     'body': """
-    import { View, Text } from 'react-native';
+    import {
+      View,
+      Text
+    } from 'react-native';
     """
   'React-Native scene':
     'prefix': 'rnsc'
