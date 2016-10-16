@@ -2,7 +2,7 @@
   "name": "react-redux-react-native-snippets",
   "main": "./lib/react-redux-snippets",
   "author": "EQuimper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Snippets for React and Redux for help developer to be faster.",
   "keywords": [
     "react",
