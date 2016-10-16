@@ -41,6 +41,13 @@
       ${1}
     }
     """
+  'componentWillUnmount':
+    'prefix': 'cwum'
+    'body': """
+    componentWillUnmount() {
+      ${1}
+    }
+    """
   'componentWillUpdate':
     'prefix': 'cwu'
     'body': """
@@ -67,6 +74,13 @@
         default:
           return state;
       }
+    };
+    """
+  'INITIAL_STATE':
+    'prefix': 'ins'
+    'body': """
+    const INITIAL_STATE = {
+      ${1}
     };
     """
   'Redux Types':

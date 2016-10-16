@@ -1,6 +1,6 @@
 # react-redux-react-native-snippets-snippets package
 
-Some snippets for React/React-Native and Redux for help you to be a faster developer.
+Some snippets for React/React-Native and Redux for help you to be a faster developer. I try to make it really easy to remember.
 
 More will coming soon.
 
@@ -52,6 +52,14 @@ componentWillMount() {
 
 ```js
 componentDidMount() {
+  ${1}
+}
+```
+
+### `cwum` componentWillUnmount
+
+```js
+componentWillUnmount() {
   ${1}
 }
 ```
