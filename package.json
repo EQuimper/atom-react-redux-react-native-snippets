@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-snippets",
+  "name": "react-redux-react-native-snippets",
   "main": "./lib/react-redux-snippets",
   "author": "EQuimper",
   "version": "0.1.0",
@@ -12,7 +12,7 @@
     "es6"
   ],
   "activationCommands": {
-    "atom-workspace": "react-redux-snippets:toggle"
+    "atom-workspace": "react-redux-react-native-snippets:toggle"
   },
   "repository": "https://github.com/EQuimper/atom-react-redux-snippets",
   "license": "MIT",

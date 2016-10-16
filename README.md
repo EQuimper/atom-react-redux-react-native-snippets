@@ -1,6 +1,6 @@
 # react-redux-snippets package
 
-Some es6 snippets for React and Redux for help you to be a faster developer.
+Some snippets for React/React-Native and Redux for help you to be a faster developer.
 
 More will coming soon.
 
