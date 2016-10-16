@@ -1,0 +1,24 @@
+{
+  "name": "react-redux-snippets",
+  "main": "./lib/react-redux-snippets",
+  "author": "EQuimper",
+  "version": "0.0.0",
+  "description": "Snippets for React and Redux for help developer to be faster.",
+  "keywords": [
+    "react",
+    "redux",
+    "snippets",
+    "react-native",
+    "es6"
+  ],
+  "activationCommands": {
+    "atom-workspace": "react-redux-snippets:toggle"
+  },
+  "repository": "https://github.com/EQuimper/atom-react-redux-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

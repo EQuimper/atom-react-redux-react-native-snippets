@@ -1,0 +1,76 @@
+'.source.js':
+  'Import React':
+    'prefix': 'imr'
+    'body': "import React from 'react';"
+  'Stateless Component':
+    'prefix': 'sl'
+    'body': """
+      const ${1} = () => (
+        ${2}
+      );
+
+      export default ${1};
+    """
+  'Export Default':
+    'prefix': 'ed'
+    'body': 'export default ${1};'
+  'class React component es6':
+    'prefix': 'rcc'
+    'body': """
+    class ${1} extends Component {
+      render() {
+        return (
+          ${2}
+        );
+      }
+    }
+
+    export default ${1};
+    """
+  'componentWillMount':
+    'prefix': 'cwm'
+    'body': """
+    componentWillMount() {
+      ${1}
+    }
+    """
+  'componentDidMount':
+    'prefix': 'cdm'
+    'body': """
+    componentDidMount() {
+      ${1}
+    }
+    """
+  'componentWillUpdate':
+    'prefix': 'cwu'
+    'body': """
+    componentWillUpdate() {
+      ${1}
+    }
+    """
+  'componentDidUpdate':
+    'prefix': 'cdu'
+    'body': """
+    componentDidUpdate() {
+      ${1}
+    }
+    """
+  'return':
+    'prefix': 'r'
+    'body': 'return ${1};'
+  'Redux Reducer':
+    'prefix': 'rrd'
+    'body': """
+    export default (state = INITIAL_STATE, action) => {
+      switch (action.type) {
+        case ${1}:
+        default:
+          return state;
+      }
+    };
+    """
+  'Redux Types':
+    'prefix': 'rt'
+    'body': """
+    export const ${1} = '${1}';
+    """
