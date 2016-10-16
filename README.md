@@ -86,6 +86,14 @@ componentDidUpdate() {
 return ${1};
 ```
 
+### 'ins' INITIAL_STATE
+
+```js
+const INITIAL_STATE = {
+  ${1}
+};
+```
+
 ### `rrd` Redux Reducer
 
 ```js
